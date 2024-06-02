@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension group="cgchat" method="upgrade" type="plugin" version="4">
+	<name>plg_cgchat_secure</name>
+	<creationDate>02/06/2024</creationDate>
+	<author>ConseilGouz</author>
+	<authorEmail></authorEmail>
+	<authorUrl>www.conseilgouz.com</authorUrl>
+	<copyright>ConseilGouz</copyright>
+	<license>GNU/GPL</license>
+	<version>1.0.0</version>
+	<description>PLG_CGCHAT_SECURE_DESCRIPTION</description>
+	<namespace path="src">ConseilGouz\Plugin\Cgchat\Secure</namespace>
+	<scriptfile>script.php</scriptfile>
+	<files>
+		<folder plugin="secure">services</folder>
+		<filename >index.html</filename>
+		<folder>src</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB/plg_cgchat_secure.ini</language>
+		<language tag="en-GB">language/en-GB/plg_cgchat_secure.sys.ini</language>
+		<language tag="fr-FR">language/fr-FR/plg_cgchat_secure.ini</language>
+		<language tag="fr-FR">language/fr-FR/plg_cgchat_secure.sys.ini</language>
+	</languages>
+	<config>
+	<fields name="params">
+		<fieldset name="basic" addfieldprefix="ConseilGouz\Plugin\Cgchat\Secure\Field">
+				<field name="version" type="version" extension="secure" margintop="-4em" xml="/plugins/cgchat/secure/secure.xml"/>
+		</fieldset>
+	</fields>
+	</config>
+	<changelogurl>https://raw.githubusercontent.com/conseilgouz/plg_cgchat_secure/master/plg_cgchat_secure_changelog.xml</changelogurl>
+	<updateservers>
+		<server type="extension" name="plg_cgchat_secure" priority="1">https://raw.githubusercontent.com/conseilgouz/updates_github/master/plg_cgchat_secure_update.xml</server>
+	</updateservers>
+</extension>
