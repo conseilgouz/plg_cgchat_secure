@@ -2,7 +2,7 @@
 	<changelog>
 		<element>secure</element>
 		<type>plugin</type>
-		<group>cgchat</group>
+		<folder>cgchat</folder>
 		<version>1.0.1</version>
         <note>
             <item>02/06/2024</item>
@@ -14,7 +14,7 @@
 	<changelog>
 		<element>secure</element>
 		<type>plugin</type>
-		<group>cgchat</group>
+		<folder>cgchat</folder>
 		<version>1.0.0</version>
         <note>
             <item>02/06/2024</item>
