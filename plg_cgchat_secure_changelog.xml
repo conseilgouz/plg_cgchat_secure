@@ -3,6 +3,18 @@
 		<element>secure</element>
 		<type>plugin</type>
 		<group>cgchat</group>
+		<version>1.0.1</version>
+        <note>
+            <item>02/06/2024</item>
+        </note>
+        <fix>
+            <item>Installation script error</item>
+        </fix>
+	</changelog>
+	<changelog>
+		<element>secure</element>
+		<type>plugin</type>
+		<group>cgchat</group>
 		<version>1.0.0</version>
         <note>
             <item>02/06/2024</item>

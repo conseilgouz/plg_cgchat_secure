@@ -25,8 +25,6 @@ class plgcgchatsecureInstallerScript
 	public function __construct()
 	{
 		$this->dir = __DIR__;
-		$this->lang = Factory::getLanguage();
-		$this->lang->load($this->extname);
 	}
 
     function preflight($type, $parent)
