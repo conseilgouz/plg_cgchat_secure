@@ -1,7 +1,7 @@
 <?php
 /**
 * CG Chat Secure Plugin  - Joomla 4.x/5.x plugin
-* copyright 		: Copyright (C) 2024 ConseilGouz. All rights reserved.
+* copyright 		: Copyright (C) 2025 ConseilGouz. All rights reserved.
 * license    		: https://www.gnu.org/licenses/gpl-3.0.html GNU/GPL
 */
 // No direct access to this file
@@ -15,7 +15,7 @@ use Joomla\Filesystem\File;
 class plgcgchatsecureInstallerScript
 {
 	private $min_joomla_version      = '4.0.0';
-	private $min_php_version         = '8.0';
+	private $min_php_version         = '7.4';
 	private $name                    = 'Plugin CGChat Secure';
 	private $exttype                 = 'plugin';
 	private $extname                 = 'secure';
