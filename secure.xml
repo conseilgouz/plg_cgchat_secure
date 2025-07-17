@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension group="cgchat" method="upgrade" type="plugin" version="4">
 	<name>plg_cgchat_secure</name>
-	<creationDate>24/02/2025</creationDate>
+	<creationDate>17/07/2025</creationDate>
 	<author>ConseilGouz</author>
 	<authorEmail></authorEmail>
 	<authorUrl>www.conseilgouz.com</authorUrl>
 	<copyright>ConseilGouz</copyright>
 	<license>GNU/GPL</license>
-	<version>1.0.2</version>
+	<version>3.5.0</version>
 	<description>PLG_CGCHAT_SECURE_DESCRIPTION</description>
 	<namespace path="src">ConseilGouz\Plugin\Cgchat\Secure</namespace>
 	<scriptfile>script.php</scriptfile>

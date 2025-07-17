@@ -3,6 +3,18 @@
 		<element>secure</element>
 		<type>plugin</type>
 		<folder>cgchat</folder>
+		<version>3.5.0</version>
+        <note>
+            <item>17/07/2025</item>
+        </note>
+        <fix>
+            <item>CG Secure 3.5.0 compatibility</item>
+        </fix>
+	</changelog>
+	<changelog>
+		<element>secure</element>
+		<type>plugin</type>
+		<folder>cgchat</folder>
 		<version>1.0.2</version>
         <note>
             <item>24/02/2025</item>
