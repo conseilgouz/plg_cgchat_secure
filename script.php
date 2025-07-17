@@ -68,7 +68,7 @@ class plgcgchatsecureInstallerScript
 		return true;
     }
 	private function postinstall_cleanup() {
-        $helperFile = JPATH_SITE . '/libraries/cgsecure/Helper/Cgipcheck.php';
+        $helperFile = JPATH_SITE . '/libraries/cgsecure/src/Cgipcheck.php';
         if (!is_file($helperFile)) {
             echo "You need install CG Secure";
         }
