@@ -3,6 +3,18 @@
 		<element>secure</element>
 		<type>plugin</type>
 		<folder>cgchat</folder>
+		<version>3.5.2</version>
+        <note>
+            <item>18/07/2025</item>
+        </note>
+        <fix>
+            <item>CG Secure 3.5.0 compatibility : check src instead of Helper folder</item>
+        </fix>
+	</changelog>
+	<changelog>
+		<element>secure</element>
+		<type>plugin</type>
+		<folder>cgchat</folder>
 		<version>3.5.1</version>
         <note>
             <item>17/07/2025</item>

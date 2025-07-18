@@ -44,7 +44,7 @@ class Secure extends CMSPlugin implements SubscriberInterface
     }
     public function __construct(&$subject, $config)
     {
-        $helperFile = JPATH_SITE . '/libraries/cgsecure/Helper/Cgipcheck.php';
+        $helperFile = JPATH_SITE . '/libraries/cgsecure/src/Cgipcheck.php';
         if (!is_file($helperFile)) {
             return;
         }
