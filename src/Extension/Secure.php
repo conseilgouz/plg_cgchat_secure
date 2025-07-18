@@ -68,7 +68,7 @@ class Secure extends CMSPlugin implements SubscriberInterface
     {
         $lang = $this->getApplication()->getLanguage();
         $lang->load('plg_cgchat_secure', JPATH_ADMINISTRATOR);
-        $helperFile = JPATH_SITE . '/libraries/cgsecure/Helper/Cgipcheck.php';
+        $helperFile = JPATH_SITE . '/libraries/cgsecure/src/Cgipcheck.php';
         if (!is_file($helperFile)) {
             $event->setArgument('response', Text::_('PLG_CGCHAT_SECURE_NEED'));
             return;
